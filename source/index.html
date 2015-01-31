@@ -1,0 +1,11 @@
+---
+layout: page
+comments: false
+sharing: false
+footer: false
+---
+
+
+{% capture my_include %}{% include _partials/home.markdown %}{% endcapture %}
+{{ my_include | markdownify }}
+
