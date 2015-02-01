@@ -15,7 +15,7 @@ stopprod:
 	@docker ps | grep ncb | awk '{print $$1}' | xargs -r docker stop
 	@docker ps -a | grep ncb | awk '{print $$1}' | xargs -r docker rm
 
-startprod: stopprod docker
+startprod: docker stopprod
 	@docker run -d --name ncb -p 8891:80 ncb
 	
 
