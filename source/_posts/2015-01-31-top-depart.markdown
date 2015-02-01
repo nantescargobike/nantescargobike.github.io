@@ -14,7 +14,7 @@ Nous avons déjà le soutien de partenaires professionnels (constructeurs & vend
 
 A bientôt!
 
-Mathieu, Corinne, Samy et Thomas.
+Corinne, Mathieu, Samy et Thomas.
 
 
 [Place Au Vélo]: http://www.placeauvelo-nantes.fr/
