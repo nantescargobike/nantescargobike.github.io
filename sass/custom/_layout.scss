@@ -1,7 +1,29 @@
 // Here you can easily change your sites's layout.
 // To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
 
-$header-font-size: 1.5em;
+/* Retina */
+@media screen and (min-width: 1024px){
+  $header-font-size: 1.5em;
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+  $header-font-size: 1.5em;
+}
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+  $header-font-size: 1.5em;
+}
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+  $header-font-size: 1em;
+}
+/* Mobile LD */
+@media screen and (max-width: 350px) {
+  $header-font-size: 0.7em;
+}
+
+
 
 //$header-font-size: 1em;
 //$header-padding-top: 1.5em;
