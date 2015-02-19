@@ -1,6 +1,6 @@
 #Qui sommes-nous?
 
-Nous sommes une associaton dont l'objectif est de promouvoir le vélo cargo dans la métropole Nantaise.
+Nous sommes une association dont l'objectif est de promouvoir le vélo cargo dans la métropole Nantaise.
 
 Convaincu qu'il s'agit du véhicule idéal pour les déplacements famillaux dans la métropole, nous partons du constat qu'il est difficile d'essayer et de choisir ce véhicule ;
 beaucoup de modèles différents (motorisation, biporteur/triporteur, freinage rollerbrake ou disque etc.), pas toujours disponibles à l'essai chez les vendeurs locaux (coût et espace nécessaire).
