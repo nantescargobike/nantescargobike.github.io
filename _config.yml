@@ -18,6 +18,7 @@ date_format: "ordinal"
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: 
 subscribe_email:
+
 # RSS feeds can list your email address if you like
 email: nantescargo@googlegroups.com
 
@@ -91,11 +92,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: nantescargobike
 disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
