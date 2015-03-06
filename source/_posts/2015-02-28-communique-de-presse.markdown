@@ -4,7 +4,7 @@ title: "Nantes Cargo Bike Meeting lors de la fête du vélo!"
 date: 2015-02-28 16:51:47 +0100
 comments: true
 categories: presse 
-published: false
+published: true
 ---
 
 ##Venez découvrir comment le vélo peut changer votre vie !
