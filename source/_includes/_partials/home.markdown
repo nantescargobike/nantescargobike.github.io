@@ -4,7 +4,7 @@ Convaincu qu'il s'agit du **véhicule idéal pour les déplacements famillaux** 
 beaucoup de modèles différents (motorisation, biporteur/triporteur, freinage rollerbrake ou disque etc.), pas toujours disponibles à l'essai chez les vendeurs locaux (coût et espace nécessaire).
 Nous voulons favoriser la progression de ce moyen de transport fiable, rapide, avec un coût d'usage dérisoir (parking, assurance, carburant, entretien).
 
-L'objectif est de créer une manifestation annuelle, dont la **[première édition]** aura lien en juin 2015. Dans la continuité du [VeloCity2015], cet événement incitera et permettra de faire découvrir le cargo-bike.
+L'objectif est de créer une manifestation annuelle, dont la **[première édition]** aura lieu **le dimanche 7 juin 2015**, sur le Parc des Machines de l’Île, de 10h à 18h. Dans la continuité du [VeloCity2015], cet événement incitera et permettra de faire découvrir le cargo-bike.
 Nous partons de l'expérience parisienne [Paris-Cargo-Bikes] que nous remercions chaleureusement pour leur aide apportée!
 
 * * *
