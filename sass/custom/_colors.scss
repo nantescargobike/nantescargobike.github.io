@@ -6,7 +6,11 @@ $cargo-bg-color: desaturate(#B6C9D2, 8);
 
 $header-bg: lighten($cargo-bg-color, 15);
 //$subtitle-color: lighten($header-bg, 58);
+
 $nav-bg:  $cargo-bg-color;
+$nav-color: darken($nav-bg, 100) !default;
+$nav-color-hover : lighten($nav-color, 50) !default;
+
 //$nav-bg-front: image-url('noise.png');
 $nav-bg-back: linear-gradient(lighten($nav-bg, 15), lighten($nav-bg, 7), $nav-bg);
 $sidebar-bg: $cargo-bg-color;
@@ -22,6 +26,7 @@ $footer-color: darken($footer-bg, 100) !default;
 $title_color: #FF0000;
 $subtitle-color: #FF0000;
 $article-color: #000000;
+
 
 
 
