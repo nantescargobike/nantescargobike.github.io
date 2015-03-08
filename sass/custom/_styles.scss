@@ -64,6 +64,8 @@ body > header {
   //background-color: #C78888;
   background-color: #FFA1A1;
   background-image: url('/images/logo.svg') ;
+  background-size: contain;
+  background-position: center;
 }
 
 /* Retina display */
