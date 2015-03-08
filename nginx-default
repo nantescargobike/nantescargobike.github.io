@@ -22,10 +22,11 @@ server {
     expires -1;
   }
 
-  location ~* \.(js|css|png|jpg|jpeg|gif|ico)$ {
-    expires 168h;
-    add_header Pragma public;
-    add_header Cache-Control "public, must-revalidate, proxy-revalidate";
+  location ~* \.(svg|js|css|png|jpg|jpeg|gif|ico)$ {
+    expires -1;
+   # expires 168h;
+   # add_header Pragma public;
+   # add_header Cache-Control "public, must-revalidate, proxy-revalidate";
   }
 
   # If nginx can't find a file, fallback to the homepage.
