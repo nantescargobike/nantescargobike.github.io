@@ -86,7 +86,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="125.81429"
+     inkscape:cx="127.24286"
      inkscape:cy="135.55561"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -99,9 +99,9 @@
      inkscape:object-nodes="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1025"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      width="744.09px"
      fit-margin-top="0"
@@ -283,8 +283,8 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       style="fill:none;stroke-width:6.86750221;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 306.10275,962.78831 c -3.69448,9.91538 -16.81924,11.98407 -18.78511,19.59032 -3.09492,11.97475 11.52923,19.64067 11.69195,27.49997 0.46857,22.6308 -1.04749,31.7528 -1.04749,31.7528"
+       style="fill:none;stroke-width:6.12151098;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 306.47575,962.41531 c -3.83792,7.58381 -17.47222,9.16606 -19.51441,14.98372 -3.21508,9.15892 11.97683,15.02222 12.14587,21.03343 0.48676,17.30924 -1.08816,24.28624 -1.08816,24.28624"
        id="path3792"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home2/mathieur/Documents/nantes_cargo_bike_meeting/logo.png"
@@ -300,8 +300,8 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       style="fill:none;stroke-width:5.36166525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 403.30042,965.99028 c 14.05707,48.82222 12.3454,41.04822 -9.37988,77.25702"
+       style="fill:none;stroke-width:4.79567909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 403.30544,965.70729 c 14.4887,37.89511 12.72448,31.86108 -9.66789,59.96591"
        id="path3792-9"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home2/mathieur/Documents/nantes_cargo_bike_meeting/logo.png"
@@ -347,11 +347,5 @@
        d="m 257.33903,1020.6955 165.99222,4.963 0,0 0,0 0,0 0,0"
        id="path3033"
        inkscape:connector-curvature="0" />
-    <path
-       style="stroke-width:3.57142854;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 373.6,196.82562 c -34.13829,-0.83187 -55.21355,-1.61764 -56.78571,-2.11718 -4.46293,-1.41809 -12.40454,-6.53285 -16.52404,-10.64224 -3.59431,-3.58548 -8.35447,-11.08281 -7.54841,-11.88886 0.17011,-0.17012 7.7486,-0.0875 16.84106,0.18352 l 16.53177,0.49282 -0.39273,5.78036 c -0.216,3.1792 -0.53818,6.94605 -0.71596,8.37078 -0.30238,2.42329 -0.17959,2.61915 1.90325,3.03572 5.12008,1.02401 5.37311,0.85409 5.87473,-3.9452 0.2524,-2.41477 0.4589,-6.27191 0.4589,-8.57143 l 0,-4.18093 3.75,-0.0121 c 7.02131,-0.0227 81.58272,2.18126 87.42882,2.58429 l 5.82167,0.40135 -3.38807,5.47752 c -5.55755,8.98491 -5.40101,8.33829 -2.44137,10.08452 1.41924,0.83737 2.64716,1.42907 2.72872,1.31489 0.0816,-0.11418 2.50605,-4.01434 5.38777,-8.66702 l 5.23946,-8.45943 6.24929,0.24514 c 3.43711,0.13483 6.45744,0.45369 6.71184,0.70858 0.52042,0.52141 -2.40658,6.64707 -7.37146,15.42709 l -3.33095,5.89052 -6.07143,-0.0949 c -3.33929,-0.0522 -30.5,-0.69021 -60.35715,-1.41776 l 0,0 z"
-       id="path3805"
-       inkscape:connector-curvature="0"
-       transform="translate(-30.635276,851.77579)" />
   </g>
 </svg>
