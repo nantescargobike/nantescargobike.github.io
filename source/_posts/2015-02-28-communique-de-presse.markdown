@@ -14,8 +14,10 @@ A l’heure où le vélo devient un mode de transport qui sera sous les projecte
 
 Face à ces enjeux qui positionnent les vélos-cargos comme une véritable alternative à la deuxième voiture au sein des foyers, l’association **NANTES CARGOS BIKE proposera une première édition de son évènement ludique et festif lors de la 15ème édition de la Fête du Vélo**, le dimanche 7 juin 2015, sur le Parc des machines de l’île à Nantes, avec le soutien de Nantes Métropole, dans le cadre de l’appel à projet vélos / citoyens.
 
-**Au programme** : animations et challenges de maniabilité, présentations et expositions de professionnels locaux et internationaux permettront aux visiteurs d’essayer les modèles, de profiter de l’expérience des propriétaires de vélos-cargos et de lever les freins à son utilisation. Le **Collectif des Boîtes à Vélo** assurera la restauration et la promotion de leur mode de transport préféré comme modèle économique innovant.
+**Au programme** : animations et challenges de maniabilité, présentations et expositions de professionnels locaux et internationaux permettront aux visiteurs d’essayer les modèles, de profiter de l’expérience des propriétaires de vélos-cargos et de lever les freins à son utilisation. Le **[Collectif des Boîtes à Vélo]** assurera la restauration et la promotion de leur mode de transport préféré comme modèle économique innovant.
  
 **Infos pratiques** : dimanche 7 juin 2015, sur le Parc des Machines de l’Île – 10h / 18h
 Bonne humeur garantie !
+
+[Collectif des Boîtes à Vélo]: https://www.facebook.com/Boitesavelo
  
