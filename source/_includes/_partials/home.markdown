@@ -32,6 +32,9 @@ Nous partons de l'expérience parisienne [Paris-Cargo-Bikes] que nous remercions
     <a href="http://www.amsterdamer.fr"> <img src="/images/partenaires/amsterdamer.png"></a>
 </span>
 <span>
+    <a href="http://www.douze-cycles.com/"> <img src="/images/partenaires/douze.png"></a>
+</span>
+<span>
     <a href="http://www.nihola.fr"> <img src="/images/partenaires/nihola.jpg"></a>
 </span>
 
