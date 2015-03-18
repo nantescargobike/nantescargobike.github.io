@@ -58,8 +58,8 @@ body > nav {
       text-shadow: lighten($nav-bg, 12) 0 1px;
       float: left;
       text-decoration: none;
-      font-size: 1.1em;
-      padding: .1em 0;
+      font-size: 1.5em;
+      padding: .3em 0;
       line-height: 1.5em;
     }
     li + li {
@@ -71,14 +71,16 @@ body > nav {
       }
     }
     form {
+
       float: right;
       text-align: left;
       padding-left: .8em;
       width: $sidebar-width-medium - $pad-medium*2 - $sidebar-pad-medium + 20px;
       .search {
         width: 93%;
-        font-size: .95em;
-        line-height: 1.2em;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        vertical-align: middle;
       }
     }
     ul[data-subscription$=email] + form {
@@ -100,7 +102,7 @@ body > nav {
 .no-placeholder {
   body > nav .search {
     background: lighten($nav-bg, 15) image-url('search.png') .3em .25em no-repeat;
-    text-indent: 1.3em;
+    text-indent: 1.5em;
   }
 }
 @mixin mask-subscription-nav($feed: 'rss.png'){

@@ -1,47 +1,33 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+/* from classic for syntax */
+
 article p{
   text-align:justify;
   color: $article-color;
 }
 
-/*
-body > header {
-  @media only screen and (min-width: 360px) {
-    height:120px;
-  }
-  @media only screen and (min-width: 960px) {
-    height:300px;
-  }
+$header-font-siz: 1.5em;
 
-  background-size: cover;
-  background: url('/images/headerbg.jpg') no-repeat;
-  padding-top: 0px;
+body > header {
+  //width: 90%;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top:0px;
   padding-bottom: 0px;
-
-
-
-}*/
-
-
-
-
-
-body > header {
-  padding: 0 0 0 0;
-
-  hgroup {
-    z-index: 1;
-    position: absolute;
-    vertical-align: bottom;
-  }
-
 }
+
+.logo
+{
+  width:80%;
+  height:auto;
+}
+
 
 .partenaire span {
   padding: 10px;
-
 }
 
 .partenaire span a {
@@ -49,67 +35,9 @@ body > header {
 }
 
 .partenaire span a img{
-
   $partenaire-height: 150px;
   max-height: $partenaire-height;
   height: $partenaire-height;
   line-height: $partenaire-height;
 }
 
-.responsive-headerbg{
-  z-index: 0;
-  width: 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  //background-color: #C78888;
-  background-color: #FCE4E4;
-  background-image: url('/images/logo.svg') ;
-  background-size: contain;
-  background-position: center;
-}
-
-/* Retina display */
-@media screen and (min-width: 1024px){
-  body > header > hgroup {
-    padding-top: 1.4cm;
-    padding-left: 55px;
-  }
-}
-
-/* Desktop */
-@media screen and (min-width: 980px) and (max-width: 1024px){
-
-  body > header > hgroup {
-    padding-top: 1.2cm;
-    padding-left: 45px;
-  }
-}
-
-/* Tablet */
-@media screen and (min-width: 760px) and (max-width: 980px){
-
-  body > header > hgroup {
-    padding-top: 1.2cm;
-    padding-left: 35px;
-  }
-}
-
-/* Mobile HD */
-@media screen and (min-width: 350px) and (max-width: 760px){
-
-
-  body > header > hgroup {
-    padding-top: 0.9cm;
-    padding-left: 20px;
-  }
-}
-
-/* Mobile LD */
-@media screen and (max-width: 350px){
-
-
-  body > header > hgroup {
-    padding-top: 0.8cm;
-    padding-left: 15px;
-  }
-}
