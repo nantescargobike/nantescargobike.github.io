@@ -16,6 +16,6 @@ Nous recherchons un maximum d'utilisateurs de vélo cargo pour:
 
 Le tout dans la joie et l'allégresse.
 
-Pour toute question ou entrer en contact avec nous: mailto:nantescargo@googlegrous.com
+Pour toute question ou entrer en contact avec nous: mailto:nantescargo@googlegroups.com
 
 {% img center /images/posts/needyou.png Appel à bénévoles %}
