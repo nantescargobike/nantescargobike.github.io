@@ -23,6 +23,9 @@ Nous partons de l'expérience parisienne [Paris-Cargo-Bikes] que nous remercions
     <a href="http://www.nantesmetropole.fr"> <img src="/images/partenaires/nantes_metropole.svg"></a>
 </span>
 <span>
+    <a href="https://www.facebook.com/Boitesavelo"> <img src="/images/partenaires/boitesavelo.jpg"></a>
+</span>
+<span>
     <a href="http://pariscargobikes.org">  <img src="/images/partenaires/pariscargobike.png"></a>
 </span>
 <span>
