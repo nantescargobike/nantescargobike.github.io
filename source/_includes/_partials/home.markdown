@@ -40,6 +40,9 @@ Nous partons de l'expérience parisienne [Paris-Cargo-Bikes] que nous remercions
 <span>
     <a href="http://www.nihola.fr"> <img src="/images/partenaires/nihola.jpg"></a>
 </span>
+<span>
+    <a href="http://www.parisdropit.com/"> <img src="/images/partenaires/dropit.jpg"></a>
+</span>
 
 </div>
 
