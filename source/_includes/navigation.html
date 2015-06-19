@@ -12,19 +12,18 @@
 
     {% if site.simple_search %}
     </span>
-<form action="{{ site.simple_search }}" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
+    <form action="{{ site.simple_search }}" method="get">
+      <fieldset role="search">
+        <input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">
+        <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+      </fieldset>
+    </form>
     </span>
-
 
   {% endif %}
 
     <span>
          <a href="https://www.facebook.com/nantescargo" ><img alt="facebook" src="/images/facebook.png"/></a>
-        </span>
+    </span>
 </div>
 {% include custom/navigation.html %}

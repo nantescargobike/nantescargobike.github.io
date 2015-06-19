@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Bilan du Nantes Cargo Bike Meeting 2015!"
+date: 2015-06-15 12:44:23 +0100
+comments: true
+categories: 
+published: true
+---
+
+Le Nantes Cargo Bike Meeting s'est déroulé sous un soleil radieux. Pas de casse, pas de blessé, une bonne ambiance.
+Nous avons un peu patogé coté animations et nous serons mieux organisés l'année prochaine.
+
+Merci aux partenaires (Amsterdamer, Bo-Vélo, Douze-Cycle, Nihola et Urban-Arrow), 
+à Place aux vélo (et tout particulièrement à Fanny), aux boites à vélo, à Nantes Métropoles, et aux "cargo-cyclistes" Nantais.
+
+A la demande des anti-facebook, [les photos sont également disponibles ici](/gallerie_2015/ "gallerie ncb 2015").
+
+Voici les vidéos de Samy et Thomas:
+
+{% youtube MbIMl2pAnWk %}
+
+{% youtube Sr9MJCjhFJ4 %}
+
+
+A l'année prochaine!
+
+* * *
+
+[Collectif des Boîtes à Vélo]: https://www.facebook.com/Boitesavelo
+
+
+
+
