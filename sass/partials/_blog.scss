@@ -8,6 +8,8 @@ article {
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
     h1 {
+      font-family: 'Terminal Dosis';
+      font-weight: bolder;
       margin: 0;
       a { text-decoration: none;
         &:hover { text-decoration: underline; } }

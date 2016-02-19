@@ -6,6 +6,7 @@
     padding: 1em 0 1em;
     position: relative;
     background: $img-border bottom left repeat-x;
+    background-color: rgba(230, 255, 230, 0.35);
     &:last-child {
       background: none;
     }

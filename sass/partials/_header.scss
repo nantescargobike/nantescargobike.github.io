@@ -1,18 +1,31 @@
 body > header {
   background: $header-bg;
-  h1 {
-    display: inline-block;
-    margin: 0;
-    a, a:visited, a:hover {
-      color: $title_color;
-      text-decoration: none;
-    }
+
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  .logo {
+      height: $header-font-size * 8;
   }
-  h2 {
-    margin: .2em 0 0;
-    @extend .sans;
-    font-size: 1em;
-    color: $subtitle-color;
-    font-weight: normal;
+
+  h1 {
+  	font-family: 'Terminal Dosis';
+  	font-size: $header-font-size * 3.5;
+  	font-weight: 900;
+  }
+
+  .social{
+    vertical-align: middle;
+
+    a img {
+      height: $header-font-size*3;
+      line-height: $header-font-size*3;
+      vertical-align: middle;
+    }
+
+    a > img:hover{
+      opacity: 0.5;
+    }
   }
 }

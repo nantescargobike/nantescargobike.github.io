@@ -8,22 +8,9 @@ article p{
   color: $article-color;
 }
 
-$header-font-siz: 1.5em;
 
-body > header {
-  //width: 90%;
-  text-align: center;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top:0px;
-  padding-bottom: 0px;
-}
 
-.logo
-{
-  width:80%;
-  height:auto;
-}
+
 
 
 .partenaire span {
@@ -40,4 +27,3 @@ body > header {
   height: $partenaire-height;
   line-height: $partenaire-height;
 }
-
