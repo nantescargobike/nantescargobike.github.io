@@ -46,6 +46,7 @@ $header-padding-bottom: 1.5em !default;
 body {
   -webkit-text-size-adjust: none;
   max-width: $max-width;
+  height:100%;
   position: relative;
   margin: 0 auto;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
@@ -91,7 +92,9 @@ body {
 
 #content {
   overflow: hidden;
-  > div, > article { width: 100%; }
+  > div, > article {
+    //width: 100%;
+  }
 }
 
 aside.sidebar {
@@ -189,4 +192,3 @@ body.sidebar-footer {
     ul, ol { margin-left: 30px; }
   }
 }
-

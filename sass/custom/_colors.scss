@@ -8,14 +8,10 @@ $cargo-bg-color: #FAF1F1;
 $header-bg: #FFDFDF;
 //$subtitle-color: lighten($header-bg, 58);
 
-$nav-bg:  $cargo-bg-color;
-$nav-border-top: $nav-bg;
-$nav-border-bottom: $nav-bg;
-$nav-color: darken($nav-bg, 100) !default;
-$nav-color-hover : lighten($nav-color, 50) !default;
+$nav-color: white !default;
+$nav-color-hover : darken($nav-color, 50) !default;
 
-//$nav-bg-front: image-url('noise.png');
-$nav-bg-back: $nav-bg;
+
 $sidebar-bg: $cargo-bg-color;
 //$sidebar-link-color: saturate(#526f9a, 10);
 //$sidebar-link-color-hover: darken(#7ab662, 9);

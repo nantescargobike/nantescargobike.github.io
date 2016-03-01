@@ -3,7 +3,7 @@ layout: post
 title: "Top départ"
 date: 2015-01-31 12:44:23 +0100
 comments: true
-categories: 
+categories:
 published: false
 ---
 
@@ -20,5 +20,3 @@ Corinne, Mathieu, Samy et Thomas.
 
 [Place Au Vélo]: http://www.placeauvelo-nantes.fr/
 [VeloCity2015]: http://www.velo-city2015.com/
-
-
