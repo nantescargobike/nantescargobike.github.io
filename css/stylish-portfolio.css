@@ -17,6 +17,7 @@ body {
     font-size: 2em;
 }
 
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -56,12 +57,21 @@ body {
 }
 
 .bg-primary a:hover{
-  color: #008E81;
+  color: #D5D5D5;
 }
 
-.bg-primary a{
+.bg-primary a {
   color: white;
   text-decoration: underline;
+}
+
+.bg-primary a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+
+a.btn {
+   text-decoration: none;
 }
 
 .about p{
