@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+- 2.1
+before_script:
+- chmod +x ./script/cibuild
+- chmod +x ./script/deploy
+install: gem install jekyll html-proofer
+script: "./script/cibuild"
+after_success: "./script/deploy"
+branches:
+  only:
+  - gh-pages
+  - "/pages-(.*)/"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - GH_REF: github.com/nantescargobike/nantescargobike.github.io.git
+  - secure: xYoZSA+p8TLIvnEEyxCLoSMD2ukzyNgLNHuN1QjAdPqgWP5TFcstwepxi/Wkq4MoBsRJGhvP84WWulWm2ibGN54hPqKzcpbOl3tZp9MFYFy30vS8V8cIJ9Hv7jt/EnkLWNKgh/V9ILlO3kvGWPgtSX4EJMN66IzD0JspUOVvucWZ+CYnhg5Mu002ADNrlKDqD7spN7NznKUq5LzOXBBBvS8KbWa9zGW6KXQO/JJeuwCDEIvzHiTB4j6NrVDNy9/opV+b13IHgKYwkU116uJxIymjrrO9jYLvKyn3Tc5ZfjD1sdWFVpiEUv7tBq26uK/xm8eJPJzWwAUixMwtkMa/ByW2mJ9q7b54LR4NYibhjAA8B+QMoNsrwn0MP1bWhZWJFrAwAcBKcHLZVv71f9FUx1gtjsWnDSauWinHHT7uMIyftnBoKKoNwX2pIuYnMb6pubCoR5J/klAUQZ8TRAQnPc58YS6X3Rjnrp0G1Jn/0OLBurtT1k/J12R9xDD/kdxB5J1er7yVyPjnuzHqBNoifSiguXEw/GQmpdJnCtBDc0Nj3nKwvBuMp5wzPfjP/BcrV32TnpUGANZu0GMO0zkT5clBKSKJsFnBK+Wj8yhDUyfJva9MO8Qm03FAboXcKxPbT+rnuI60PRSbw3D10b9IU0V7x2eMhQBz3VFSJ0olScg=
