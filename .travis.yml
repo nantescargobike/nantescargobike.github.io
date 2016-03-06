@@ -2,17 +2,13 @@ language: ruby
 rvm:
 - 2.1
 before_script:
-- chmod +x ./script/cibuild
-- chmod +x ./script/deploy
-install: gem install jekyll html-proofer
-script: "./script/cibuild"
-after_success: "./script/deploy"
-branches:
-  only:
-  - gh-pages
-  - "/pages-(.*)/"
+- chmod +x ./cibuild
+- chmod +x ./deploy
+install: bundle install
+script: "./cibuild"
+after_success: "./deploy"
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - GH_REF: github.com/nantescargobike/nantescargobike.github.io.git
-  - secure: xYoZSA+p8TLIvnEEyxCLoSMD2ukzyNgLNHuN1QjAdPqgWP5TFcstwepxi/Wkq4MoBsRJGhvP84WWulWm2ibGN54hPqKzcpbOl3tZp9MFYFy30vS8V8cIJ9Hv7jt/EnkLWNKgh/V9ILlO3kvGWPgtSX4EJMN66IzD0JspUOVvucWZ+CYnhg5Mu002ADNrlKDqD7spN7NznKUq5LzOXBBBvS8KbWa9zGW6KXQO/JJeuwCDEIvzHiTB4j6NrVDNy9/opV+b13IHgKYwkU116uJxIymjrrO9jYLvKyn3Tc5ZfjD1sdWFVpiEUv7tBq26uK/xm8eJPJzWwAUixMwtkMa/ByW2mJ9q7b54LR4NYibhjAA8B+QMoNsrwn0MP1bWhZWJFrAwAcBKcHLZVv71f9FUx1gtjsWnDSauWinHHT7uMIyftnBoKKoNwX2pIuYnMb6pubCoR5J/klAUQZ8TRAQnPc58YS6X3Rjnrp0G1Jn/0OLBurtT1k/J12R9xDD/kdxB5J1er7yVyPjnuzHqBNoifSiguXEw/GQmpdJnCtBDc0Nj3nKwvBuMp5wzPfjP/BcrV32TnpUGANZu0GMO0zkT5clBKSKJsFnBK+Wj8yhDUyfJva9MO8Qm03FAboXcKxPbT+rnuI60PRSbw3D10b9IU0V7x2eMhQBz3VFSJ0olScg=
+  - secure: N48XdUDSgA4a5wX8SrP77ilJzjWdxeYHBInfl5VSu2E2cC6+5Po4Iv4PEPqs8f1g9Afkp+Tgv5IbGfDEj/rBQIqzXwxlwlXBcEVN5d7hvjaHHRkYvZwUyUoKBmUc6wrYCWgT4pIqpQfTzLTXiamkJntIwXyoCWFiSuUfW+57AutbN3CIyaa2wmOwLrMXvjsKutRK9tX0m5z7mdzzOPMo9CmQTlshpOO/yQwO5AT3ROwZzJTFiw3kgD2ci1UyfI3OD12Rj0ykx4lIecqO1a2bWT/gJmhq6BpBokOg+7O1NTJmD8Hal+CxC4NK4NShBSGHOQSE8Yq91qVuKRzbOpHjaiQ6XFMi8PNOAWot9Aja0YMqen1O7Jnw3qsFelvpWZquSP9eg6FwPFLU4emHSMB1FCO5xwKpyX+/9NIeFl9MYD2AsqVavYCiyDWc3uBmnZd4lkceTtgBS4rPZH+AjerWiNKWhb9WuBXKdV6SktgJf+wzoLvzqB/6khja+orsdK7YBPI0RcSaVD5dRNzHTvgHkpPfesG3aYfEbqGoadhVYkYYLcvNZq2aSQ6bsMOWKoC7apelUw7SdQamqRJr6lwsa7gbGRFB96SaOriycLTgSMMQ6rr4tgITKsuu9yjAyYS8legwp+bJpYvQXh415A0uVbm7GacvdPW6OeuUnCYdOsI=
