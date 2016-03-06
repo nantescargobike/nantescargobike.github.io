@@ -30,3 +30,4 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
+exclude: [vendor]
