@@ -1,0 +1,26 @@
+<footer id="contact" class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <img class="logo" src="../img/logo.svg"/>
+        <h2>{{ site.owner }}</h2>
+
+        <ul class="list-unstyled">
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </li>
+        </ul>
+        <br>
+        <ul class="list-inline">
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCRfIx2vU_9oZsBBK0S9RnCw"><i class="fa fa-youtube fa-fw fa-3x"></i></a>
+          </li>
+        </ul>
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
