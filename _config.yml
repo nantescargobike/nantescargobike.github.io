@@ -1,10 +1,8 @@
 # Site settings
 title: Nantes Cargo Bike
 email: nantecargo@googlegroups.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Page officile de Nantes Cargo Bike. Association de promotion du vélo cargo dans la métropole nantaise.
+author: Mathieu Ruellan <mathieu.ruellan@gmail.com>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.nantescargobike.fr" # the base hostname & protocol for your site
 
@@ -21,7 +19,7 @@ address:
   # Feel free to add more lines here
 telephone:
 copyright: Nantes Cargo Bike
-
+google_analytics_key: UA-60774720-1
 # API settings
 google_api_key: AIzaSyDjA_3-WRLKA2wLNjpPVTU8o6T_5edeiWI
 
