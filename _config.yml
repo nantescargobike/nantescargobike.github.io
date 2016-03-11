@@ -1,7 +1,7 @@
 # Site settings
 title: Nantes Cargo Bike
 email: nantecargo@googlegroups.com
-description: Page officile de Nantes Cargo Bike. Association de promotion du vélo cargo dans la métropole nantaise.
+description: Page officielle de Nantes Cargo Bike. Association de promotion du vélo cargo dans la métropole nantaise.
 author: Mathieu Ruellan <mathieu.ruellan@gmail.com>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.nantescargobike.fr" # the base hostname & protocol for your site
