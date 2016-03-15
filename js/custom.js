@@ -38,3 +38,11 @@ $(document).ready(function() {
     $('#map_iframe').addClass('scrolloff');
   });
 });
+
+$('.carousel-control.left').click(function() {
+  $('#myCarousel').carousel('prev');
+});
+
+$('.carousel-control.right').click(function() {
+  $('#myCarousel').carousel('next');
+});

@@ -56,6 +56,11 @@ body {
 }
 
 @media(max-width:768px) {
+
+  .desktop{
+    display: none;
+  }
+
   .navdown{
     font-size: 3em;
   }
@@ -117,15 +122,19 @@ h2{
 
 @media(max-width:768px) {
   h1{
-    font-size: 2.5em;
+    font-size: 1.2em;
   }
 
   h2{
-    font-size: 1.8em;
+    font-size: 0.8em;
   }
 
   h3{
-    font-size: 1.2em;
+      font-size: 0.7em;
+  }
+
+  p{
+    font-size: 0.7em;
   }
 }
 
@@ -347,4 +356,65 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  text-align: center;
+}
+
+
+.carousel-indicators {
+    top: 2em;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-shadow: 20px 20px 100px black;
+  top:40%;
+  color:white;
+}
+
+@media(max-width:768px) {
+  .carousel-indicators {
+      display: none;;
+  }
+
+  .carousel-caption {
+    top:0em;
+  }
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  text-align: center;
+  min-width: 100%;
+}
+
+.carousel .navdown {
+  position: absolute;
+  bottom:0px;
+  z-index: 20;
+  left: 50%;
+  width: 60%;
+  text-align: center;
+  margin-left: -30%;
+  padding-left: 0:
+}
+
+.carousel-inner > .item > img {
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+  min-width: 100%;
+  height: auto;
+  display: block;
 }
