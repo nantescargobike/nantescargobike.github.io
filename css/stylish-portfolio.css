@@ -10,11 +10,13 @@ html,
 body {
     width: 100%;
     height: 100%;
+
 }
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
+    line-height: normal;
 }
 
 .header .logo {
@@ -88,13 +90,12 @@ a.btn {
    text-decoration: none;
 }
 
-.about p{
+.about p, .ncb2015 p{
   text-align: justify;
 }
 
-
-
 .ncb2016{
+  height:100%;
   background-image: url("../img/bgncb2016.jpg");
   background-size: cover;
   background-color: rgba(0,0,0,0.8);
@@ -280,63 +281,11 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    background-color: khaki;
 }
 
-/* Services */
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
 
 /* Map */
-
 .map {
     height: 400px;
 }
@@ -348,7 +297,7 @@ hr.small {
 }
 
 /*disable custom maps scrolling behaviour*/
-.scrolloff {
+  .scrolloff {
     pointer-events: none;
 }
 
@@ -361,6 +310,27 @@ footer {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
+
+.fullscreenwrapper {
+  height:100%;
+  display: table;
+  min-width: 100%
+}
+
+
+
+.fullscreencontent {
+  min-width: 100%;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fullscreenfooter{
+  position:absolute;
+  height: 100%;
+  min-width: 100%;
+}
 
 /* Carousel base class */
 .carousel {
@@ -379,6 +349,7 @@ footer {
   top:40%;
   color:white;
 }
+
 
 @media(max-width:768px) {
   .carousel-indicators {
