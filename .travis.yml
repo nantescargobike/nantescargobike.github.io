@@ -5,6 +5,9 @@ before_script:
 - chmod +x ./cibuild
 - chmod +x ./deploy
 install: bundle install
+branches:
+  only:
+    - stable
 script: "./cibuild"
 after_success: "./deploy"
 env:
