@@ -389,3 +389,23 @@ footer {
   height: auto;
   display: block;
 }
+
+
+.youtube {
+  width: 640px;
+  height:390px;
+}
+
+@media(max-width:768px) {
+  .youtube {
+    width: 500px;
+    height:304px;
+  }
+}
+
+@media(max-width:600px) {
+  .youtube {
+    width: 150px;
+    height:91px;
+  }
+}
