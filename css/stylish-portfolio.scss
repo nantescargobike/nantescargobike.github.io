@@ -16,26 +16,35 @@ $h1-font-size-mobile: 1.2em;
 $h2-font-size-mobile: 0.8em;
 $h3-font-size-mobile: 0.7em;
 $h4-font-size-mobile: 0.7em;
-$yt-width-mobile: 380px;
-$yt-height-mobile:91px;
 
 //tablet
 $h1-font-size-tablet: 4em;
 $h2-font-size-tablet: 2em;
 $h3-font-size-tablet: 1em;
 $h4-font-size-tablet: 1em;
-$yt-width-tablet: 500px;
-$yt-height-tablet:304px;
 
 // desktop
 $h1-font-size-desktop: 4em;
 $h2-font-size-desktop: 2em;
 $h3-font-size-desktop: 1em;
 $h4-font-size-desktop: 1em;
-$yt-width-desktop: 640px;
-$yt-height-desktop: 390px;
 
 
+.fluidMedia {
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.fluidMedia iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 h1, h2, h3 {
   font-family: 'Terminal Dosis';
