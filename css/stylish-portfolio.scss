@@ -150,8 +150,18 @@ body {
   height:100%;
 }
 
+
+.bg-primary {
+  background-color: transparent;
+}
+
+a.bg-primary:hover {
+  background-color: transparent;
+}
+
 .bg-primary .navdown {
   color: white;
+
 }
 
 .bg-primary a:hover{
@@ -161,6 +171,7 @@ body {
 .bg-primary a {
   color: white;
   text-decoration: underline;
+
 }
 
 .bg-primary a:hover{
@@ -170,6 +181,10 @@ body {
 
 a.btn {
    text-decoration: none;
+}
+
+.ncb2015{
+  background-color: #337ab7;
 }
 
 .about p, .ncb2015 p{
@@ -435,4 +450,18 @@ footer {
   min-width: 100%;
   height: auto;
   display: block;
+}
+
+
+
+.centerFlex {
+  display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+
+  	-ms-flex-align: center;
+  	-webkit-align-items: center;
+  	-webkit-box-align: center;
+
+  	align-items: center;
 }
