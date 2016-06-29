@@ -187,18 +187,21 @@ a.btn {
   background-color: #337ab7;
 }
 
-.about p, .ncb2015 p{
+.about p, .ncb2015 p, .ncb2016 p{
   text-align: justify;
 }
 
-.ncb2016{
-  height:100%;
-  background-image: url("../img/bgncb2016.jpg");
-  background-size: cover;
-  background-color: rgba(0,0,0,0.8);
-  background-blend-mode: darken;
+.ncb2016 h3 {
   text-align: center;
-  vertical-align: middle;
+}
+
+
+.ncb2016 .reference p {
+  text-align: center;
+}
+
+.ncb2016{
+  background-color: rgba(23, 15, 15, 0.8)
 }
 
 .map{
