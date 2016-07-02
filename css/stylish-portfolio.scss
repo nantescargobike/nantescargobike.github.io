@@ -129,6 +129,8 @@ body {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
 
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   align-items: center;
 }
@@ -163,6 +165,18 @@ body {
    -webkit-justify-content: center;
    justify-content: center;
 }
+
+.flexcolumncontainer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column; /* works with  column */
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
 
 .flexsmallitem {
    -webkit-flex: 0 0 0;
@@ -207,7 +221,7 @@ a.btn {
   background-color: #337ab7;
 }
 
-.about p, .ncb2015 p, .ncb2016 p{
+.about p, .ncb2015 p, .ncb2016 p {
   text-align: justify;
 }
 
@@ -384,23 +398,11 @@ footer {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-.fullscreenwrapper {
-  height:100%;
-  display: table;
-  min-width: 100%
-}
-
-
 
 
 /* Carousel base class */
 .carousel {
   text-align: center;
-  width:100%;
-  width:100vw;
 }
 
 
@@ -436,7 +438,6 @@ footer {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   text-align: center;
-  min-width: 100%;
 }
 
 .carousel .navdown {
@@ -456,7 +457,5 @@ footer {
   -moz-filter: brightness(50%);
   -o-filter: brightness(50%);
   -ms-filter: brightness(50%);
-  min-width: 100%;
-  height: auto;
-  display: block;
+
 }
