@@ -125,6 +125,13 @@ body {
     line-height: normal;
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
 
 .text-vertical-center {
     display: table-cell;
@@ -146,10 +153,23 @@ body {
   color:#008E81;
 }
 
-.contact{
-  height:100%;
+.flexrowcontainer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
 }
 
+.flexsmallitem {
+   -webkit-flex: 0 0 0;
+   flex: 0 0 0;
+   padding-left: 2px;
+   padding-right: 2px;
+}
 
 .bg-primary {
   background-color: transparent;
@@ -336,10 +356,6 @@ hr.small {
 /* Header */
 
 .header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
     background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -357,7 +373,7 @@ hr.small {
 
 
 /*disable custom maps scrolling behaviour*/
-  .scrolloff {
+.scrolloff {
     pointer-events: none;
 }
 
@@ -395,6 +411,8 @@ footer {
 /* Carousel base class */
 .carousel {
   text-align: center;
+  width:100%;
+  width:100vw;
 }
 
 
