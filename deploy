@@ -21,6 +21,7 @@ git add gallerie_2015
 git add img
 git add js
 git add README.md
+git add bower_components
 
 git commit -m "Deploy to GitHub Pages"
 
