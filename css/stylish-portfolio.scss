@@ -213,6 +213,8 @@ body {
 }
 
 .avantagecontainer {
+   max-width: 100%;
+   max-width: 100vw;
    display: -webkit-box;
    display: -webkit-flex;
    display: -moz-box;
@@ -242,8 +244,10 @@ body {
 
   width: calc(100% * (1/3));
   min-width: 280px;
-   padding-left: 10px;
-   padding-right: 10px;
+}
+
+.avantagecontent {
+  padding: 1em;
 }
 
 
