@@ -20,18 +20,18 @@
       cursor : wait;
       }
 
-    .preload * {
-      -webkit-transition: none !important;
-      -moz-transition: none !important;
-      -ms-transition: none !important;
-      -o-transition: none !important;
-    }
   </style>
 
   <script>
   window.onload = function(){
-      document.getElementById('loader').className="";
-      document.body.className="";
+      document.getElementById('loader').className = "";
+
+      var elements = document.getElementsByClassName("prefadein");
+      for (var i = 0; i < elements.length; i++) {
+        var e = elements[i];
+        e.classList.toggle('fadein');
+        e.classList.toggle('prefadein');
+      }
 
   };
   </script>
