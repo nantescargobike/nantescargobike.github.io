@@ -378,12 +378,19 @@ hr.small {
     height: 100vh;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    background: rgba(34, 34, 34, 0.90);
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+}
+
+.btn-sidebar {
+    border-radius: 0;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.00);
+    mix-blend-mode: difference;
 }
 
 .sidebar-nav {
