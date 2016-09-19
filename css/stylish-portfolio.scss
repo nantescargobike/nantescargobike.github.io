@@ -1,6 +1,11 @@
 ---
 ---
 
+$grid-float-breakpoint:     920px;
+
+
+@import "bootstrap";
+
 $retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 $width-wide: 1300px;
 $width-desktop: 980px;
@@ -149,7 +154,7 @@ body {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
 
-  padding-top: 15px;
+  padding-top: 50px;
   padding-bottom: 15px;
 
   display: -webkit-box;
@@ -367,98 +372,139 @@ hr.small {
     max-width: 100px;
 }
 
-/* Side Menu */
 
-#sidebar-wrapper {
+.navbar-ncb-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-ncb-default .navbar-toggle {
+    background-color:  rgba(0, 0, 0, 0.40);
+    color:white;
+}
+
+.navbar-ncb {
+    //background-color: #b4b4b4;
+    top: 0;
+    width:100%;
     z-index: 1000;
     position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    height: 100vh;
-    margin-right: -250px;
-    overflow-y: auto;
-    background: rgba(34, 34, 34, 0.90);
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+    //mix-blend-mode: difference;
 }
 
-.btn-sidebar {
-    border-radius: 0;
-    color: #FFFFFF;
-    background-color: rgba(255, 255, 255, 0.00);
-    mix-blend-mode: difference;
+.navbar-collapse-ncb {
+    background-color: rgba(0, 0, 0, 0.80);
 }
 
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.nav>li>a {
+  color: white;
 }
 
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
+
+.nav>li>a:hover, .nav>li.active>a:hover  {
+  text-decoration: underline;
 }
 
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999;
+.nav>li>a:focus, .nav>li>a:hover  {
+  background-color: transparent;
+}
+.nav>li.active>a, .nav>li.active>a:hover, .nav>li.active>a:focus {
+  background-color: #6e3c3c;
 }
 
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
-}
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-    height: 55px;
-    font-size: 18px;
-    line-height: 55px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-
-#menu-toggle {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.toggle {
-    margin: 5px 5px 0 0;
-}
+// /* Side Menu */
+//
+// #sidebar-wrapper {
+//     z-index: 1000;
+//     position: fixed;
+//     right: 0;
+//     width: 250px;
+//     height: 100%;
+//     height: 100vh;
+//     margin-right: -250px;
+//     overflow-y: auto;
+//     background: rgba(34, 34, 34, 0.90);
+//     -webkit-transition: all 0.4s ease 0s;
+//     -moz-transition: all 0.4s ease 0s;
+//     -ms-transition: all 0.4s ease 0s;
+//     -o-transition: all 0.4s ease 0s;
+//     transition: all 0.4s ease 0s;
+// }
+//
+// .btn-sidebar {
+//     border-radius: 0;
+//     color: #FFFFFF;
+//     background-color: rgba(255, 255, 255, 0.00);
+//     mix-blend-mode: difference;
+// }
+//
+// .sidebar-nav {
+//     position: absolute;
+//     top: 0;
+//     width: 250px;
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+// }
+//
+// .sidebar-nav li {
+//     text-indent: 20px;
+//     line-height: 40px;
+// }
+//
+// .sidebar-nav li a {
+//     display: block;
+//     text-decoration: none;
+//     color: #999;
+// }
+//
+// .sidebar-nav li a:hover {
+//     text-decoration: none;
+//     color: #fff;
+//     background: rgba(255,255,255,0.2);
+// }
+//
+// .sidebar-nav li a:active,
+// .sidebar-nav li a:focus {
+//     text-decoration: none;
+// }
+//
+// .sidebar-nav > .sidebar-brand {
+//     height: 55px;
+//     font-size: 18px;
+//     line-height: 55px;
+// }
+//
+// .sidebar-nav > .sidebar-brand a {
+//     color: #999;
+// }
+//
+// .sidebar-nav > .sidebar-brand a:hover {
+//     color: #fff;
+//     background: none;
+// }
+//
+// #menu-toggle {
+//     z-index: 1;
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+// }
+//
+// #sidebar-wrapper.active {
+//     right: 250px;
+//     width: 250px;
+//     -webkit-transition: all 0.4s ease 0s;
+//     -moz-transition: all 0.4s ease 0s;
+//     -ms-transition: all 0.4s ease 0s;
+//     -o-transition: all 0.4s ease 0s;
+//     transition: all 0.4s ease 0s;
+// }
+//
+// .toggle {
+//     margin: 5px 5px 0 0;
+// }
 
 /* Header */
 
@@ -475,13 +521,9 @@ hr.small {
 }
 
 /* About */
-
 .about {
     background-color: khaki;
 }
-
-
-
 
 /*disable custom maps scrolling behaviour*/
 .scrolloff {
@@ -494,14 +536,10 @@ footer {
     padding: 100px 0;
 }
 
-
-
-
 /* Carousel base class */
 .carousel {
   text-align: center;
 }
-
 
 .carousel-indicators {
     top: 2em;
@@ -513,7 +551,6 @@ footer {
   text-shadow: 20px 20px 100px black;
   color:white;
 }
-
 
 @media #{$desktop} {
   .carousel-caption {
